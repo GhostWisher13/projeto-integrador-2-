@@ -1,11 +1,11 @@
 <template>
   <header>
     <div class="menu-esquerdo">
-      <span> <RouterLink to="/">Livros</RouterLink> </span>
+      <span> <RouterLink to="/"><button>Livros</button></RouterLink> </span>
       <span>|</span>
-      <span> <RouterLink to="/times">Autores</RouterLink> </span>
+      <span> <RouterLink to="/times"><button>Autores</button></RouterLink> </span>
       <span>|</span>
-      <span> <RouterLink to="/jogadores">Mais Vendidos</RouterLink> </span>
+      <span> <RouterLink to="/jogadores"><button>Mais vendidos</button></RouterLink> </span>
     </div>
     <div class="menu-direito">
       <input type="text" v-model="pesquisa" />
